@@ -1,0 +1,37 @@
+﻿빌드 시작: 2015-07-18 오후 3:29:06
+     1>2 노드의 "C:\Users\dlawk_000\Documents\GitHub\PlaneGameWithSound\myPrac\myPrac.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "소스.cpp"
+         소스.cpp
+     1>c:\users\dlawk_000\documents\github\planegamewithsound\myprac\소스.cpp(196): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\conio.h(133) : 'kbhit' 선언을 참조하십시오.
+     1>c:\users\dlawk_000\documents\github\planegamewithsound\myprac\소스.cpp(198): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\conio.h(131) : 'getch' 선언을 참조하십시오.
+     1>c:\users\dlawk_000\documents\github\planegamewithsound\myprac\소스.cpp(202): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\conio.h(131) : 'getch' 선언을 참조하십시오.
+     1>c:\users\dlawk_000\documents\github\planegamewithsound\myprac\소스.cpp(253): warning C4996: 'putch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _putch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\conio.h(139) : 'putch' 선언을 참조하십시오.
+     1>c:\users\dlawk_000\documents\github\planegamewithsound\myprac\소스.cpp(254): warning C4996: 'putch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _putch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\conio.h(139) : 'putch' 선언을 참조하십시오.
+     1>c:\users\dlawk_000\documents\github\planegamewithsound\myprac\소스.cpp(288): warning C4996: 'putch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _putch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\conio.h(139) : 'putch' 선언을 참조하십시오.
+     1>c:\users\dlawk_000\documents\github\planegamewithsound\myprac\소스.cpp(289): warning C4996: 'putch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _putch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\conio.h(139) : 'putch' 선언을 참조하십시오.
+     1>c:\users\dlawk_000\documents\github\planegamewithsound\myprac\소스.cpp(298): warning C4996: 'putch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _putch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\conio.h(139) : 'putch' 선언을 참조하십시오.
+     1>c:\users\dlawk_000\documents\github\planegamewithsound\myprac\소스.cpp(309): warning C4996: 'putch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _putch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\conio.h(139) : 'putch' 선언을 참조하십시오.
+     1>c:\users\dlawk_000\documents\github\planegamewithsound\myprac\소스.cpp(429): warning C4996: 'putch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _putch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\conio.h(139) : 'putch' 선언을 참조하십시오.
+     1>c:\users\dlawk_000\documents\github\planegamewithsound\myprac\소스.cpp(437): warning C4996: 'putch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _putch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\conio.h(139) : 'putch' 선언을 참조하십시오.
+     1>c:\users\dlawk_000\documents\github\planegamewithsound\myprac\소스.cpp(453): warning C4996: 'putch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _putch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\conio.h(139) : 'putch' 선언을 참조하십시오.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\dlawk_000\Documents\GitHub\PlaneGameWithSound\Debug\myPrac.exe" /INCREMENTAL /NOLOGO fmodex_vc.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\dlawk_000\Documents\GitHub\PlaneGameWithSound\Debug\myPrac.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\dlawk_000\Documents\GitHub\PlaneGameWithSound\Debug\myPrac.lib" /MACHINE:X86 "Debug\소스.obj"
+         myPrac.vcxproj -> C:\Users\dlawk_000\Documents\GitHub\PlaneGameWithSound\Debug\myPrac.exe
+     1>"C:\Users\dlawk_000\Documents\GitHub\PlaneGameWithSound\myPrac\myPrac.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:04.62
